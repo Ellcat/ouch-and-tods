@@ -1,3 +1,4 @@
+
 .clear {
 	clear:both;
 }
@@ -33,6 +34,7 @@
     }
 
     .links a {
+    	font-family: 'ambleregular' sans-serif;
     	color:black;
     	font-size: 25px;
     	border-bottom: 1px solid #dfdfdf;
@@ -45,3 +47,16 @@
     hr {
     	clear:both;
 	 }
+
+	 
+	h1 {
+	font-family: 'ambleregular' sans-serif;
+	font-size:48px;
+	font-weight:bold;
+  		
+
+	}
+
+	h2 {
+	font-family: 'Roboto Condensed';
+	}
