@@ -8,7 +8,10 @@
 </head>
 <body>
 	<header>
+
+	<!-- logo -->
 	<div class="col-xs-3">
+	 <%= link_to root_path, :class => 'logo' do %>
 	 <div class="circle">
         <br />
         ouch
@@ -17,14 +20,16 @@
         <br />
         tods
       </div>
+      <% end %>
    </div>
 
 	<div class="col-xs-4 slogan">
 	Splurting out unsolicited advice since July 2015
 	</div>
 
+<!--header links-->
 	<div class="col-xs-5 links">
-	  <%= link_to 'Contribute', '#' %>
+	  <%= link_to 'Contribute', new_quote_path %>
 	  <%= link_to 'About', '#' %>
 	 </div>
 	 </header>
@@ -40,7 +45,8 @@
   <div class="footer">
     <div class="container">
     <div class="col-xs-6">
-    	<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+    	<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
+    	
     	</div>
       <div class="col-xs-6 footer-blurb">
       Create at Lyndale Farm one sunny afternoon.

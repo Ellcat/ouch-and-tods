@@ -31,6 +31,7 @@
 
     .links {
     padding-top:26px;
+    text-align: right;
     }
 
     .links a {
@@ -75,3 +76,7 @@
 		color: #7424D6;
 		text-align: right;
 	}
+
+    .logo:hover {
+  text-decoration:none;
+}
